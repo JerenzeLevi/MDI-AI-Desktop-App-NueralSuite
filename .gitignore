@@ -1,0 +1,54 @@
+# =========================
+# 🧱 Build results
+# =========================
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# 🧠 Visual Studio files
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# 📦 NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+
+# Keep packages.config if present
+!packages.config
+
+# =========================
+# 🔐 Secrets / API Keys
+# =========================
+appsettings.json
+*.env
+
+# =========================
+# 🖼️ Runtime / temp files
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# 📷 EmguCV / OpenCV runtime
+# =========================
+*.dll
+*.pdb
+
+# =========================
+# 💻 OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
